@@ -10,7 +10,7 @@ function App() {
             <Route path='employee' element={<EmployeData/>}/>
             <Route path="monthlyreport/:name" element={<MonthlyReport/>}/>
             </Route>
-            <Route path='*' element={<h1>Page Not Fount</h1>}/>
+            {/* <Route path='*' element={<h1>Page Not Fount</h1>}/> */}
       </Routes>
   
 );
